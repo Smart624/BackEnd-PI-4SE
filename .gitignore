@@ -1,0 +1,112 @@
+# ------------------------------------------------
+# Node.js Backend Comprehensive with OS Specifics
+# ------------------------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Compiled output
+/dist
+/lib
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Swagger output
+/swagger-stats/
+
+# Debug files
+.nyc_output/
+.vscode/
+.debug/
+
+# dotenv environment variables files
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.tmproj
+
+# OS generated files
+## macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+## Linux
+*~
+.directory
+.fuse_hidden*
+.Trash-*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+*~
+
+# Database files
+*.sqlite
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Cache files
+*.cache
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+*.pub
+*.cer
+*.pfx
+*.p12
+
+# CI/CD specific
+/Jenkinsfile
+.gitlab-ci.yml
+.drone.yml
+/.circleci/
+/.github/
