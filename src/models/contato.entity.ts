@@ -1,13 +1,16 @@
 import { Entity, BaseEntity, PrimaryGeneratedColumn, Column } from 'typeorm'
 
 @Entity()
-export default class Task extends BaseEntity {
+export default class Contato extends BaseEntity {
   @PrimaryGeneratedColumn()
   id!: number
 
   @Column()
-  title!: string
+  nome!: string
 
-  @Column({default: false})
-  completed!: boolean
+  @Column()
+  email!: string
+
+  @Column()
+  mensagem!: string
 }
