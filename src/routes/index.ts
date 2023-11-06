@@ -1,8 +1,10 @@
 import { Router } from 'express'
-import taskRoutes from './task/task.routes'
+import contatoRoutes from './contato/contato.routes'
+import agendamentoRoutes from './agendamento/agendamento.routes'
 
 const routes = Router()
 
-routes.use('/task', taskRoutes)
+routes.use('/contato', contatoRoutes)
+routes.use('/agendamento', agendamentoRoutes)
 
 export default routes
